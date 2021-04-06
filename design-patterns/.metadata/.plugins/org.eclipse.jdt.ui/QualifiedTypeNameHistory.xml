@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="loja.imposto.Imposto"/>
+<fullyQualifiedTypeName name="loja.IPI"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="loja.ICMS"/>
+<fullyQualifiedTypeName name="javafx.util.converter.BigDecimalStringConverter"/>
+<fullyQualifiedTypeName name="loja.desconto.CalculadoraDeDesconto"/>
+<fullyQualifiedTypeName name="loja.Pedido"/>
+<fullyQualifiedTypeName name="loja.desconto.DescontoPorValor"/>
+<fullyQualifiedTypeName name="loja.desconto.DescontoPorQuantidade"/>
+<fullyQualifiedTypeName name="loja.desconto.Desconto"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="loja.desconto.SemDesconto"/>
+<fullyQualifiedTypeName name="loja.imposto.CalculadoraDeImposto"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="situacao.Situacao"/>
+</qualifiedTypeNameHistroy>
