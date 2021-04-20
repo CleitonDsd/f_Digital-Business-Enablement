@@ -20,7 +20,7 @@ public class UserBean {
 		new UserDAO().save(this.user);
 		this.user = new User();
 		FacesContext.getCurrentInstance().addMessage(null,
-				new FacesMessage("Usuario cadastrado com sucesso! User: " + user.getName()));
+				new FacesMessage("Usuario cadastrado com sucesso! User: " + getUser()));
 	}
 
 	public List<User> getUsers() {
