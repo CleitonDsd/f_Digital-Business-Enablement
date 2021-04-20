@@ -10,7 +10,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-
+/***
+ * 
+ * @author Cleiton Dsd'
+ *
+ */
 @Entity
 @Table(name = "TB_USER")
 public class User {

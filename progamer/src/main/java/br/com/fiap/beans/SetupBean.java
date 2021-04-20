@@ -10,6 +10,11 @@ import javax.inject.Named;
 import br.com.fiap.dao.SetupDAO;
 import br.com.fiap.model.Setup;
 
+/***
+ * 
+ * @author Cleiton Dsd'
+ *
+ */
 @Named
 @RequestScoped
 public class SetupBean {
@@ -19,9 +24,7 @@ public class SetupBean {
 	public void save() {
 		new SetupDAO().save(this.setup);
 		this.setup = new Setup();
-		FacesContext
-		.getCurrentInstance()
-		.addMessage(null, new FacesMessage("Setup cadastrado com sucesso"));
+		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Setup cadastrado com sucesso"));
 	}
 
 	public List<Setup> getSetups() {

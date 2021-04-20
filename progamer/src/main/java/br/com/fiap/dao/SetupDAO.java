@@ -8,6 +8,11 @@ import javax.persistence.TypedQuery;
 import br.com.fiap.model.Setup;
 import br.com.fiap.util.EntityManagerFacade;
 
+/***
+ * 
+ * @author Cleiton Dsd'
+ *
+ */
 public class SetupDAO {
 
 	private EntityManager manager = EntityManagerFacade.get();

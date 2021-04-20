@@ -4,6 +4,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+/***
+ * 
+ * @author Cleiton Dsd'
+ *
+ */
 public class EntityManagerFacade {
 
 	public static EntityManager get() {

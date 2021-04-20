@@ -10,6 +10,11 @@ import javax.inject.Named;
 import br.com.fiap.dao.UserDAO;
 import br.com.fiap.model.User;
 
+/***
+ * 
+ * @author Cleiton Dsd'
+ *
+ */
 @Named
 @RequestScoped
 public class UserBean {
