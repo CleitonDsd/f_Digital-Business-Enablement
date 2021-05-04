@@ -3,6 +3,7 @@ package br.com.fiap.rest;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
@@ -90,16 +91,21 @@ public class SetupEndpoint {
 		
 	}
 	
+	@DELETE
+	@Path("{id}")
+	public Response destroy(@PathParam("id") Long id) {
+		if (id == null) {
+			return Response.status(Response.Status.NOT_FOUND).build();
+		}
+		try {
+			dao.remove(id);
+			return Response.status(Response.Status.OK)
+					.build();
+			
+		} catch (Exception e) {
+			return Response.status(Response.Status.BAD_REQUEST).build();
+		}
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 }
